@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
-import Header  from './header';
-import Footer  from './footer';
-import Employee from './Employee';
+// import Header  from './header';
+// import Footer  from './footer';
+// import Employee from './Employee';
+import Test from './Test';
 import './Style.css';
 // import PropTypes from 'prop-types'
 
@@ -24,9 +25,10 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Header name='Dishant' surname='mevawala'/>
+      {/* <Header name='Dishant' surname='mevawala'/>
       <Employee name='Dev' surname='mevawala'></Employee>
-      <Footer name='Janvi' surname='mevawala'/>
+      <Footer name='Janvi' surname='mevawala'/> */}
+      <Test name='Dishant'>React</Test>
     </div>
   );
 }
